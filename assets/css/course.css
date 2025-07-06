@@ -1,0 +1,486 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*style of navbar*/
+header{
+    padding-top: 72px;
+
+nav{
+    padding: 0 70px;
+    background-color: #fff;
+    width: 100vw;
+    height: 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+
+    ul{
+        display: flex;
+        list-style: none;
+        min-width: 519px;
+    
+
+        a {
+            text-decoration: none;
+            font-size: 16px;
+            padding: 26.5px 20px;
+            font-weight: 600;
+            color: #000000;
+            font-family: "Exo", sans-serif;
+
+            .arrow{
+                vertical-align: middle;
+            }
+        }
+        
+    }
+    .register{
+        display: flex;
+        gap: 20px;
+        min-width: 198px;
+
+        a{
+            padding: 22.5px 0;
+            font-size: 18px;
+            font-weight: 500;
+            text-decoration: none;
+            color: #000000;
+            font-family: "Jost", sans-serif; 
+        }
+    }
+    ul{
+        a:hover{
+            color: #FF782D;
+            background-color: #F5F5F5;
+        }
+    }
+
+    .bars{
+            display: none;
+            background: none;
+            border: none;
+        }
+}
+.hero{ 
+    background-color: #F5F5F5;
+    height: 60px;
+
+    .info{
+        padding: 18px 70px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 8px;
+
+        p,.course{
+            font-size: 16px;
+            font-weight: 400;
+            color: #555555;
+            font-family: "Jost", sans-serif;
+        }
+        .course{
+            color: #9D9D9D;
+        }
+    }
+}
+}
+
+/*style of  All courses*/
+.courses{
+        margin: 56px 70px;
+    
+    .title{
+        display: flex;
+        align-items: center;
+        justify-content:space-between;
+        margin-bottom: 50px;
+        flex-wrap: wrap;
+        
+
+
+            h2{
+                font-size: 36px;
+                font-weight: 600px;
+                font-family: "Exo", sans-serif;
+            }
+
+        .info{
+            display: flex;
+            align-items: center;
+            gap: 20px;
+
+            img{
+                margin-bottom: 11px;
+            }
+            .search{
+                width: 270px;
+                height: 31px;
+                display: flex;
+                justify-content: space-between;
+                border-bottom: 1px solid #000000;
+                input{
+                    border: none;
+                }
+
+                input::placeholder{
+                    font-size: 18px;
+                    font-weight: 400;
+                    color: #9D9D9D;
+                    font-family: "Jost", sans-serif;
+                }
+
+            }
+        }
+    }
+
+    .continer{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 35px;
+        
+
+        .card{
+            
+            border: 1px solid rgba(234, 234, 234, 1);
+            border-radius: 20px;
+            max-width: 385px;
+            margin-bottom: 35px;
+
+            
+
+            .float{
+                position: relative;
+
+                .Photograph{
+                    position: absolute;
+                    top: 20px;
+                    left: 20px;
+                    background-color: Black;
+                    width: 114px;
+                    height: 40px;
+                    border-radius: 8px;
+                    padding: 8px 12px;
+
+                    p{
+                        font-size: 16px;
+                        font-weight: 500;
+                        font-family: "Jost", sans-serif;
+                        color: rgba(255, 255, 255, 1);
+                    
+                        
+                    }
+                }
+            }
+
+
+            .content{
+                margin: 20px 20px;
+                
+                
+
+                p{
+                    padding-bottom: 12px;
+                    font-size: 16px;
+                    font-weight: 400;
+                    font-family: "Jost", sans-serif;
+
+                    span{
+                        color:rgba(85, 85, 85, 1) ;
+                    }
+                }
+                h4{
+                    font-size: 20px;
+                    font-weight: 600;
+                    font-family: "Exo", sans-serif;
+                    margin-bottom: 16px;
+                }
+                .info{
+                    display: flex;
+                    gap: 24px;
+                    margin-bottom: 16px;
+                
+                    
+                    
+                    
+                    .sub-info{
+                        display: flex;
+                        align-items: center;
+                        gap: 8px;
+                        height: 24px;
+                        
+                        
+                        
+                    
+                        
+                        p{
+                            padding: 0;
+                            font-size: 16px;
+                            max-width: 88px;
+                            font-weight: 400;
+                            font-family: "Jost", sans-serif;
+                            color:rgba(85, 85, 85, 1) ;
+                            
+                        }
+                    }
+                }
+                hr{
+                    background-color:rgba(234, 234, 234, 1);
+                    height: 1px;
+                    border: none;
+                }
+
+                .last-info{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    height: 27px;
+                    margin-top: 16px;
+
+                    p{
+                        padding: 0;
+                        font-size: 18px;
+                        font-weight: 400;
+                        font-family: "Jost", sans-serif;
+                        color: rgba(157, 157, 157, 1);
+                        span{
+                            color:rgba(85, 190, 36, 1);
+                            font-weight: 500;
+                        }
+                    }
+                    a{
+                        font-size: 18px;
+                        color: rgba(0, 0, 0, 1);
+                        font-weight: 500;
+                        font-family: "Jost", sans-serif;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+    .button{
+        margin-top: 50px;
+        .content{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            div{
+                width: 48px;
+                height: 48px;
+                border-radius: 24px;
+                border: 1px solid #EAEAEA;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                p{
+                    font-size: 18px;
+                    font-weight: 500;
+                    font-family: "Jost", sans-serif;
+                }
+
+            }
+                .active{
+                    background-color: #000000;
+                    p{
+                        color: #FFFFFF;
+                    }
+                }
+        }
+    }
+}
+/*style of  Contact Us*/
+.contact{
+    padding: 50px 70px 0;
+    background-color: #F5F5F5;
+
+    .continer{
+        display: flex;
+        justify-content: space-between;
+        gap: 30.2px;
+
+        .card1{
+            max-width: 412.69px;
+            height: 131px;
+            img{
+                margin-bottom: 32px;
+
+            }
+            p{
+                    font-size: 18px;
+                    font-family: "Jost", sans-serif;
+                    font-weight: 400;
+                    max-width: 341px;
+                    color: #555555;
+            }
+        }
+        .card2 ,.card3{
+            width: 191.25px;
+            height: 191px;
+            h4{
+                margin-bottom: 32px;
+                font-size: 20px;
+                font-weight: 600;
+                font-family: "Exo", sans-serif;
+            }
+            .sub-card{
+                height: 135px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                p, a{
+                    font-size: 18px;
+                    color: #555555;
+                    font-family: "Jost", sans-serif;
+                    font-weight: 500;
+                    text-decoration: none;                    
+                }
+            }
+        }
+        .card3{
+            height: 281px;
+            .sub-card{
+                height: 225px;
+
+                p:hover{
+                    color: #FF782D;
+                }
+            }
+        }
+        .card4{
+            max-width:340.22px ;
+            height: 218px;
+            
+
+            h4{
+                margin-bottom: 32px;
+                font-size: 20px;
+                font-weight: 600;
+                font-family: "Exo", sans-serif;
+            }
+            .content{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                gap: 16px;
+
+                .sub-card{
+                    p{
+                    font-size: 18px;
+                    color: #555555;
+                    font-family: "Jost", sans-serif;
+                    font-weight: 400;                        
+                    }
+                }
+                .icon{
+                    display: flex;
+                    justify-content: flex-start;
+                    gap: 12px;
+
+                    svg{
+                        color: #555555;
+                        font-size: 20px;
+                    }
+
+                    .active:hover{
+                        color: #FF782D;
+                    }
+                }
+            }
+        }
+    }
+footer{
+        padding: 50px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+                p{
+                    font-size: 18px;
+                    color: #555555;
+                    font-family: "Jost", sans-serif;
+                    font-weight: 400;                   
+                }
+    }
+}
+
+/*media query */
+@media screen and (max-width : 992px){
+    header{
+        nav{
+            padding: 30px 20px;
+
+            ul ,.register{
+            display: none;
+            }
+            .bars{
+                display: block;
+                padding-top: 5px;
+            }
+        }
+        .hero{
+            .info{
+                padding: 18px 20px;
+            }
+        }
+    }
+    .courses{
+        margin: 56px 20px;
+        .title{
+            gap: 32px;
+            min-width: 230px;
+
+            .info{
+                width: 100%;
+                
+
+            }
+
+        }
+        .continer{
+            
+
+            .card{
+                width: 100%;
+                .float{
+                    img{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+    .contact{
+        padding: 70px 20px 0 ;
+
+        .continer{
+            flex-direction: column;
+            gap: 30px;
+
+            .card1{
+                margin-bottom: 30px;
+            }
+            .card4{
+                sub-card{
+                    max-width: 300px;
+                }
+            }
+        }
+        footer{
+            padding: 38px 20px 93px;
+            p{
+                text-align: center;
+            }
+        }
+    }
+}

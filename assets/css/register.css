@@ -1,0 +1,379 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*style of navbar*/
+header{
+    padding-top: 72px;
+
+nav{
+    padding: 0 70px;
+    background-color: #fff;
+    width: 100vw;
+    height: 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+
+    ul{
+        display: flex;
+        list-style: none;
+        min-width: 519px;
+    
+
+        a {
+            text-decoration: none;
+            font-size: 16px;
+            padding: 26.5px 20px;
+            font-weight: 600;
+            color: #000000;
+            font-family: "Exo", sans-serif;
+
+            .arrow{
+                vertical-align: middle;
+            }
+        }
+        
+    }
+    .register{
+        display: flex;
+        gap: 20px;
+        min-width: 198px;
+
+        a{
+            padding: 22.5px 0;
+            font-size: 18px;
+            font-weight: 500;
+            text-decoration: none;
+            color: #000000;
+            font-family: "Jost", sans-serif; 
+        }
+    }
+    ul{
+        .active:hover{
+            color: #FF782D;
+            background-color: #F5F5F5;
+        }
+    }
+
+    .bars{
+            display: none;
+            background: none;
+            border: none;
+        }
+}
+.hero{ 
+    background-color: #F5F5F5;
+    height: 60px;
+
+    .info{
+        padding: 18px 70px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 8px;
+
+        p,.Login{
+            font-size: 16px;
+            font-weight: 400;
+            color: #555555;
+            font-family: "Jost", sans-serif;
+        }
+    
+        
+        .Login{
+            color: #9D9D9D;
+        }
+    }
+}
+}
+.form{
+
+
+
+    .continer{
+        margin: 56px 70px 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+        gap: 30px;
+        min-height: 448px;
+
+        .login,.register{
+            width: 609px;
+            border-radius: 20px;
+            border: 1px solid #EAEAEA;
+            background-color: #FFFFFF;
+
+            .login{
+                height: 406px;
+            }
+
+            h2{
+                margin: 30px 30px;
+                font-size: 32px ;
+                font-weight: 600;
+                font-family: "Exo", sans-serif;
+            }
+        }
+        .info{
+            display: flex;
+            flex-direction: column;
+            margin: 30px 30px;
+            gap: 20px;
+            input{
+                height: 48px;
+                border-radius: 8px;
+                border: 1px solid #9D9D9D;
+                padding: 10.5px 16px;
+            }
+            input::placeholder{
+                font-size: 18px;
+                color: #9D9D9D;
+                font-weight: 400;
+                font-family: "Jost", sans-serif;
+            }
+            .password{
+
+                position: relative;
+                img{
+                    position: absolute;
+                    right:16px;
+                    top:12px;
+                }
+                input{
+                    width: 100%;
+                    height: 48px;
+                }
+            }
+
+            .lable{
+                display: flex;
+                align-items: center;
+                gap: 4px;
+
+                p{
+                    font-size: 18px;
+                    color: #555555;
+                    font-family: "Jost", sans-serif;
+                    font-weight: 400;
+                }
+                .checkbox{
+                    
+                    width: 16px;
+                    height: 16px;
+                }
+            }
+            button{
+                background-color: #FF782D;
+                border: none;
+                border-radius: 24px;
+                height: 48px;
+                color: #FFFFFF;
+                font-weight: 500;
+                font-size: 18px;
+                font-family: "Jost", sans-serif;
+            }
+            a{
+                color: #000000;
+                font-weight: 400;
+                font-size: 18px;
+                font-family: "Jost", sans-serif;
+                text-decoration: none;
+            }
+        }
+    }
+}
+/*style of  Contact Us*/
+.contact{
+    padding: 50px 70px 0;
+    background-color: #F5F5F5;
+
+    .continer{
+        display: flex;
+        justify-content: space-between;
+        gap: 30.2px;
+
+        .card1{
+            max-width: 412.69px;
+            height: 131px;
+            img{
+                margin-bottom: 32px;
+
+            }
+            p{
+                    font-size: 18px;
+                    font-family: "Jost", sans-serif;
+                    font-weight: 400;
+                    max-width: 341px;
+                    color: #555555;
+            }
+        }
+        .card2 ,.card3{
+            width: 191.25px;
+            height: 191px;
+            h4{
+                margin-bottom: 32px;
+                font-size: 20px;
+                font-weight: 600;
+                font-family: "Exo", sans-serif;
+            }
+            .sub-card{
+                height: 135px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                p, a{
+                    font-size: 18px;
+                    color: #555555;
+                    font-family: "Jost", sans-serif;
+                    font-weight: 500; 
+                    text-decoration: none;                   
+                }
+            }
+        }
+        .card3{
+            height: 281px;
+            .sub-card{
+                height: 225px;
+
+                .active:hover{
+                    color: #FF782D;
+                }
+            }
+        }
+        .card4{
+            max-width:340.22px ;
+            height: 218px;
+            
+
+            h4{
+                margin-bottom: 32px;
+                font-size: 20px;
+                font-weight: 600;
+                font-family: "Exo", sans-serif;
+            }
+            .content{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                gap: 16px;
+
+                .sub-card{
+                    p{
+                    font-size: 18px;
+                    color: #555555;
+                    font-family: "Jost", sans-serif;
+                    font-weight: 400;                        
+                    }
+                }
+                .icon{
+                    display: flex;
+                    justify-content: flex-start;
+                    gap: 12px;
+
+                    .fa-facebook-f,.fa-pinterest-p,
+                    .fa-x-twitter,.fa-square-instagram,.fa-youtube{
+                        color: #555555;
+                        font-size: 20px;
+                    }
+
+                    .active:hover{
+                        color: #FF782D;
+                    }
+                }
+            }
+        }
+    }
+footer{
+        padding: 50px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+                p{
+                    font-size: 18px;
+                    color: #555555;
+                    font-family: "Jost", sans-serif;
+                    font-weight: 400;                   
+                }
+    }
+}
+
+/*media query */
+@media screen and (max-width : 992px){
+    header{
+        nav{
+            padding: 30px 20px;
+
+            ul ,.register{
+            display: none;
+            }
+            .bars{
+                display: block;
+                padding-top: 5px;
+            }
+        }
+        .hero{
+            .info{
+                padding: 18px 20px;
+                p{
+                    max-width: 110px;
+                }
+            }
+        }
+    }
+
+    .form{
+    
+
+        .continer{
+            margin: 56px 20px 70px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            .info{
+                margin: 30px 15px;
+            }
+
+            .login,.register{
+                max-width: 100%;
+
+                h2{
+                    margin: 30px 15px;
+                }
+            }
+        }
+    }
+
+    .contact{
+        padding: 70px 20px 0 ;
+
+        .continer{
+            flex-direction: column;
+            gap: 30px;
+
+            .card1{
+                margin-bottom: 30px;
+            }
+            .card4{
+                sub-card{
+                    max-width: 300px;
+                }
+            }
+        }
+        footer{
+            padding: 38px 20px 93px;
+            p{
+                text-align: center;
+            }
+        }
+    }
+}
